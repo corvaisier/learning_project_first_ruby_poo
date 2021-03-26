@@ -1,19 +1,19 @@
 class Panier
     
-    attr_accessor :total, :accuCerises, :accuBananes, :accuMeles, :accuPommes
+    attr_accessor :total, :accu_cerises, :accu_bananes, :accu_meles, :accu_pommes
 
     def initialize 
         @total = 0
-        @accuCerises = 0
-        @accuBananes = 0
-        @accuMeles = 0
-        @accuPommes = 0
+        @accu_cerises = 0
+        @accu_bananes = 0
+        @accu_meles = 0
+        @accu_pommes = 0
     end
     def addFruits(args)
-        @accuCerises +=1 if args == "cerises"
-        @accuBananes +=1 if args == "bananes"
-        @accuMeles +=1 if args == "meles"
-        @accuPommes +=1 if args == "pommes"
+        @accu_cerises +=1 if args == 'cerises'
+        @accu_bananes +=1 if args == 'bananes'
+        @accu_meles +=1 if args == 'meles'
+        @accu_pommes +=1 if args == 'pommes'
     end
 
 end
