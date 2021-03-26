@@ -14,5 +14,5 @@ client_interraction.fruits()
         panier.addFruits(args)
         reduction.calculeReduction(args, panier)     
       end
-client_interraction.prix(panier)
+    client_interraction.prix(panier)
   end
