@@ -8,7 +8,7 @@ RSpec.describe Greeting do
             expect(greeting.hello).to  eql("Hello world")
         end
     end
-    describe "#goodbye" do 
+    describe "#goodbye", :focus do 
         it "return 'Goodbye world'" do
             greeting = described_class.new
             expect(greeting.goodbye).to  eql("Goodbye world")
