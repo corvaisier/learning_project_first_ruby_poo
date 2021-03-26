@@ -3,7 +3,7 @@ class Client_interraction
     puts 'quel fruit?'
     'quel fruit?'
   end
-  def prix (panier)
+  def prix(panier)
     return puts panier.total
   end
 end
