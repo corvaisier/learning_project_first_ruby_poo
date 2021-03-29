@@ -1,8 +1,9 @@
 class Greeting
   def hello
-    'Hello world'
+    "Hello world"
   end
+
   def goodbye
-    'Goodbye world'
+    "Goodbye world"
   end
 end
