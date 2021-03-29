@@ -5,6 +5,6 @@ class ClientInterraction
   end
 
   def prix(panier)
-    return puts panier.total
+    puts panier.total
   end
 end
