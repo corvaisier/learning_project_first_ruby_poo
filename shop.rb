@@ -3,13 +3,13 @@ require "./lib/entre_client.rb"
 require "./lib/reduction.rb"
 require "./lib/client_interraction.rb"
 panier = Panier.new
-entre_client = Entree_client.new
+entre_client = EntreeClient.new
 reduction = Reduction.new
-client_interraction = Client_interraction.new
-client_interraction.fruits()
+client_interraction = ClientCnterraction.new
+client_interraction.fruits
 ARGF.each do |argument|
   for args in entre_client.entree(argument)
-    panier.addFruits(args)
+    panier.add_fruits(args)
     reduction.calcule_reduction(args, panier)
   end
   client_interraction.prix(panier)

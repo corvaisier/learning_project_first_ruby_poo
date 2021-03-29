@@ -1,4 +1,4 @@
-class Entree_client
+class EntreeClient
   attr_accessor :all_args
 
   def initialize

@@ -8,11 +8,11 @@ class Reduction
   def reduction(args, panier)
     if args == "cerises" && panier.accu_cerises % 2
       30
-    elsif args == "bananes" && panier.accu_bananes % 2 == 0
+    elsif args == "bananes" && (panier.accu_bananes % 2).zero?
       150
     elsif args == "meles" && panier.accu_meles % 2 == 0
       100
-    elsif args == "pommes" && panier.accu_pommes % 3 == 0
+    elsif args == "pommes" && (panier.accu_bananes % 2).zero?
       50
     else
       0

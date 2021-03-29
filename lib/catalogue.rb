@@ -4,4 +4,4 @@ PRODUCTS = {
   "apples" => 100,
   "bananes" => 150,
   "cerises" => 75,
-}
+}.freeze

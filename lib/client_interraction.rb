@@ -1,4 +1,4 @@
-class Client_interraction
+class ClientInterraction
   def fruits
     puts "quel fruit?"
     "quel fruit?"
